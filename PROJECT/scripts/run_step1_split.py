@@ -9,7 +9,24 @@ from sklearn.model_selection import KFold
 SEED = 42
 N_FOLDS = 5
 
-DATA_DIR = r'C:\Users\mina_\OneDrive\Documents\DESING_OF_AI_SYSTEMS\Semantic Segmentation with Deep Learning\PROJECT'
+
+# =====================================================================
+# CONFIGURATION - Portable path discovery
+import os
+POSSIBLE_DATA_PATHS = [
+    os.path.join(os.getcwd(), 'Potsdam-GeoTif'),
+    os.path.join(os.getcwd(), 'data'),
+    os.path.join(os.path.dirname(os.getcwd()), 'Potsdam-GeoTif'),
+    os.path.join(os.path.dirname(os.getcwd()), 'data'),
+    os.path.join(os.path.dirname(os.path.dirname(os.getcwd())), 'Potsdam-GeoTif'),
+    os.getcwd()
+]
+DATA_DIR = next((p for p in POSSIBLE_DATA_PATHS if os.path.exists(p)), 'data')
+# =====================================================================
+
+# Original local path:
+# DATA_DIR = r'C:\Users\mina_\OneDrive\Documents\DESING_OF_AI_SYSTEMS\Semantic Segmentation with Deep Learning\PROJECT'
+DATA_DIR = DATA_DIR # already discovered above
 
 # ── Collect all .tif files ──────────────────────────────────────────
 all_tifs = []

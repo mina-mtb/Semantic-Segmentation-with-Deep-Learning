@@ -28,7 +28,10 @@ Due to its large size (~15GB), the raw dataset is **not** included in this repos
 **How to download and use:**
 1. Download the **"2D Semantic Labeling Potsdam"** GeoTIFF tiles from the [ISPRS Official Website](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx).
 2. Create a folder named `data/` or `Potsdam-GeoTif/` inside the `PROJECT/` directory.
-3. Extract the downloaded `.zip` file into that folder. The notebooks are configured to automatically find the `.tif` tiles if they are placed in either of these locations.
+### 🛠️ Directory Configuration
+The project features a **dual-path configuration** in all notebooks and scripts:
+- **Portable Discovery**: Automatically finds data in `PROJECT/data/` or `PROJECT/Potsdam-GeoTif/`.
+- **Custom Local Paths**: Your original absolute local paths are preserved as **comments** at the top of configuration cells, allowing you to easily switch back if needed.
 
 ### 3. Running the Project
 The notebooks are numbered sequence-wise:

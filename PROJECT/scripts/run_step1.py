@@ -10,7 +10,24 @@ import matplotlib.patches as mpatches
 import rasterio
 
 # ── CONFIG ─────────────────────────────────────────────────────────────
-SAMPLE_FILE = r'C:\Users\mina_\OneDrive\Documents\DESING_OF_AI_SYSTEMS\Semantic Segmentation with Deep Learning\PROJECT\0000000224-0000042784.tif'
+
+# =====================================================================
+# CONFIGURATION - Portable path discovery
+import os
+POSSIBLE_DATA_PATHS = [
+    os.path.join(os.getcwd(), 'Potsdam-GeoTif'),
+    os.path.join(os.getcwd(), 'data'),
+    os.path.join(os.path.dirname(os.getcwd()), 'Potsdam-GeoTif'),
+    os.path.join(os.path.dirname(os.getcwd()), 'data'),
+    os.path.join(os.path.dirname(os.path.dirname(os.getcwd())), 'Potsdam-GeoTif'),
+    os.getcwd()
+]
+DATA_DIR = next((p for p in POSSIBLE_DATA_PATHS if os.path.exists(p)), 'data')
+# =====================================================================
+
+# Original local path:
+# SAMPLE_FILE = r'C:\Users\mina_\OneDrive\Documents\DESING_OF_AI_SYSTEMS\Semantic Segmentation with Deep Learning\PROJECT\0000000224-0000042784.tif'
+SAMPLE_FILE = os.path.join(DATA_DIR, '0000000224-0000042784.tif')
 
 CLASS_NAMES = [
     'Impervious surface', 'Building', 'Tree',
@@ -103,7 +120,9 @@ axes[2].axis('off')
 axes[2].legend(handles=patches, loc='lower right', fontsize=8, framealpha=0.9)
 
 plt.tight_layout()
-out_path = r'C:\Users\mina_\OneDrive\Documents\DESING_OF_AI_SYSTEMS\Semantic Segmentation with Deep Learning\PROJECT\step1_visualization.png'
+# Original local path:
+# out_path = r'C:\Users\mina_\OneDrive\Documents\DESING_OF_AI_SYSTEMS\Semantic Segmentation with Deep Learning\PROJECT\step1_visualization.png'
+out_path = os.path.join('outputs', 'step1_visualization.png')
 plt.savefig(out_path, dpi=150, bbox_inches='tight')
 plt.close()
 
