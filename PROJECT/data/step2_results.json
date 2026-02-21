@@ -1,0 +1,10 @@
+{
+  "model": "SimpleCNN",
+  "test_loss": 1.7049,
+  "test_accuracy": 0.2915,
+  "epochs_trained": 1,
+  "best_val_acc": 0.2915,
+  "best_val_loss": 1.7049,
+  "train_loss_final": 0.7849,
+  "train_acc_final": 0.7667
+}

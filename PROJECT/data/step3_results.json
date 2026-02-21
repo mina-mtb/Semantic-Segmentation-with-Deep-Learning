@@ -1,0 +1,9 @@
+{
+  "model": "UNet",
+  "test_loss": 1.793,
+  "test_accuracy": 0.0036,
+  "epochs_trained": 1,
+  "best_val_acc": 0.0036,
+  "train_acc_final": 0.3392,
+  "train_loss_final": 1.7337
+}
