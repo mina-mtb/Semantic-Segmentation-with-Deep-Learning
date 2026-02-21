@@ -1,0 +1,44 @@
+# ── Dataset: raw GeoTIFF tiles (too large for GitHub) ────────────────
+PROJECT/Potsdam-GeoTif/
+PROJECT/data/*.tif
+PROJECT/data/*.zip
+PROJECT/data/*.tiff
+*.tif
+*.tiff
+
+# ── Zip archives ─────────────────────────────────────────────────────
+*.zip
+
+# ── Large trained models ─────────────────────────────────────────────
+PROJECT/models/best_unet_model.keras
+*.keras
+
+# ── Python cache ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# ── Jupyter checkpoints ──────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Virtual environments ─────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+
+# ── OS junk ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE & Editor ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── Temp build artifacts ─────────────────────────────────────────────
+PROJECT/_cells_part*.json
+PROJECT/_en_cells_part*.json
