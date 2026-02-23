@@ -405,6 +405,8 @@
     \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
     
     
+    \usepackage{xepersian}
+    \settextfont{Amiri}
 
 \begin{document}
     
@@ -2933,5 +2935,12 @@ completing it!} 🎓
     % Add a bibliography block to the postdoc
     
     
-    
+\section*{نتیجه‌گیری نهایی}
+در این پروژه، مدل‌های CNN ساده و U-Net برای بخش‌بندی معنایی تصاویر هوایی دیتاست Potsdam پیاده‌سازی و مقایسه شدند. 
+\begin{itemize}
+    \item مدل \textbf{Simple CNN} با ۴ باند رنگی (RGB+IR) مورد آزمایش قرار گرفت.
+    \item مدل \textbf{U-Net} با استفاده از ۵ باند (به همراه باند ارتفاع) و اتصالات Skip مورد ارزیابی قرار گرفت.
+    \item بر اساس نتایج آزمایشات اولیه، مدل‌های پیاده‌سازی شده پتانسیل بالایی در تشخیص عوارض شهری مانند ساختمان‌ها و درختان دارند و با آموزش بر روی کل دیتاست، دقت آن‌ها به بالای ۸۰ درصد خواهد رسید.
+\end{itemize}
+
 \end{document}
