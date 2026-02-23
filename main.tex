@@ -1,3 +1,4 @@
+% !TeX program = xelatex
 \documentclass[11pt]{article}
 
     \usepackage[breakable]{tcolorbox}
@@ -44,7 +45,9 @@
           }
     \else
         \usepackage{fontspec}
-        \usepackage{unicode-math}
+        % unicode-math can sometimes conflict with xepersian if not managed
+        % we will skip it for now to ensure maximum compatibility unless needed
+        %\usepackage{unicode-math}
     \fi
 
     \usepackage{fancyvrb} % verbatim replacement that allows latex
@@ -186,7 +189,9 @@
     \renewcommand{\LaTeX}{\textrm{\Oldlatex}}
     % Document parameters
     % Document title
-    \title{Notebook}
+    \title{Semantic Segmentation with Deep Learning\\Potsdam Dataset Tutorial}
+    \author{Mina Tahmasebi}
+    \date{\today}
     
     
     
@@ -1288,14 +1293,12 @@ train/val/test file lists
 
     \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\section{━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━}\label{section}
+\section{━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━}
 
-\section{Step 2: Simple Convolutional Neural Network
-(CNN)}\label{step-2-simple-convolutional-neural-network-cnn}
+\section{Step 2: Simple CNN --- Building the Baseline}\label{step-2-simple-cnn-building-the-baseline}
 
-\section{━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━}\label{section-1}
-
-\subsection{Core Concept: What is a Convolutional Neural
+\section{━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━}
+{Core Concept: What is a Convolutional Neural
 Network?}\label{core-concept-what-is-a-convolutional-neural-network}
 
 \subsubsection{The problem with Fully-Connected networks on
@@ -2108,15 +2111,15 @@ handle this better.
 
     \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\section{━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━}\label{section}
+\section{━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━}
 
 \section{Step 3: U-Net --- Encoder-Decoder with Skip
 Connections}\label{step-3-u-net-encoder-decoder-with-skip-connections}
 
-\section{━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━}\label{section-1}
+\section{━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━}
 
 \subsection{The problem with a plain
-CNN}\label{the-problem-with-a-plain-cnn}
+CNN}
 
 Our Step-2 CNN kept the image at its full resolution throughout. That's
 fine, but it has a fundamental weakness:
