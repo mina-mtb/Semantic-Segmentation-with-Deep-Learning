@@ -27,19 +27,24 @@ MODEL_SAVE_PATH = 'best_simple_model.keras'
 # CONFIGURATION - Portable path discovery
 import os
 def discover_data_dir():
-    possible = [
-        os.path.join(os.getcwd(), 'Potsdam-GeoTif'),
-        os.path.join(os.getcwd(), 'data'),
-        os.path.join(os.getcwd(), 'PROJECT', 'Potsdam-GeoTif'),
-        os.path.join(os.getcwd(), 'PROJECT', 'data'),
-        os.getcwd()
-    ]
-    existing = [p for p in possible if os.path.exists(p)]
-    for p in existing:
-        try:
-            if any(f.endswith('.tif') for f in os.listdir(p)): return p
-        except: continue
-    return existing[0] if existing else 'data'
+    """Auto-locate the folder containing .tif files."""
+    _here = os.path.dirname(os.path.abspath(__file__))
+    _project = os.path.dirname(_here)  # one level up from scripts/
+    candidates = []
+    for base in [_project, os.getcwd(), os.path.join(os.getcwd(), 'PROJECT')]:
+        candidates.append(os.path.join(base, 'Potsdam-GeoTif', 'Potsdam-GeoTif'))
+        candidates.append(os.path.join(base, 'Potsdam-GeoTif'))
+        candidates.append(os.path.join(base, 'data'))
+    for p in candidates:
+        if os.path.isdir(p):
+            try:
+                if any(f.endswith('.tif') for f in os.listdir(p)): return p
+            except: continue
+    # Fallback: recursive walk from project root
+    for root, _, files in os.walk(_project):
+        if any(f.endswith('.tif') for f in files):
+            return root
+    return 'data'
 
 DATA_DIR = discover_data_dir()
 # =====================================================================

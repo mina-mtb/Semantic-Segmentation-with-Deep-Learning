@@ -1,61 +1,60 @@
 {
   "train": [
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
   ],
   "val": [
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
   ],
   "test": [
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-    "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+    "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
   ],
   "all_folds": [
     [
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
     ],
     [
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
     ],
     [
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
     ],
     [
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
     ],
     [
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
-      "C:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif",
+      "c:\\Users\\mina_\\OneDrive\\Documents\\DESING_OF_AI_SYSTEMS\\Semantic Segmentation with Deep Learning\\PROJECT\\data\\0000000224-0000042784.tif"
     ]
-  ],
-  "note": "Paths point to real files. Duplicated for demo with 1 sample file."
+  ]
 }
