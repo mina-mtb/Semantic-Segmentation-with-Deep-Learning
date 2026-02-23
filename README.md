@@ -10,7 +10,7 @@ This repository contains a comprehensive implementation of semantic segmentation
 - **`PROJECT/scripts/`**: Python scripts for automation and utility functions.
 - **`PROJECT/models/`**: Pre-trained model weights (best performing simple CNN).
 - **`PROJECT/outputs/`**: Visualization results, training curves, and evaluation metrics.
-- **`PROJECT/report/`**: Professional LaTeX report (English) detailing the methodology and results.
+- **`main.tex`**: Professional LaTeX report (English) detailing the methodology and results (converted from notebook).
 
 ---
 
@@ -50,7 +50,7 @@ The notebooks are numbered sequence-wise:
 ---
 
 ## 📄 Documentation
-For a deep dive into the math and implementation details, check out the [English Project Report](PROJECT/report/project_report_EN.tex) or the PDF in the report folder.
+For a deep dive into the math and implementation details, check out the [English Project Report](main.tex) or the converted notebook.
 
 ---
 **Author:** Mina Tahmasebi  
